@@ -1,0 +1,24 @@
+{
+    "name": "janus/prueba-php",
+    "description": "Connectivity test between PHP and AWS, designed to verify successful connection and evaluate the configuration of the cloud environment.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Janus\\PruebaPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miusarname"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "3.278.3",
+        "aws/aws-crt-php": "1.0.4",
+        "guzzlehttp/guzzle": "6.5.8",
+        "guzzlehttp/promises": "1.4.0",
+        "guzzlehttp/psr7": "1.9.1",
+        "mtdowling/jmespath.php": "2.6",
+        "psr/http-message": "1.0"
+    }
+}
